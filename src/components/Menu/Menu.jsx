@@ -15,41 +15,10 @@ export function Menu() {
       className='position-sticky top-0'
       style={{ zIndex: 999, backgroundColor: '#212529' }}
     >
-      <a href='https://solarstorage.ahmreg.com/' target='_blank'>
-        <div className='banner-become text-white text-center p-2'>
-          <div>
-            <span className='bg-secondary rounded-circle p-2 d-inline-flex justify-content-center'>
-              <svg
-                className='w-3 h-3 text-black'
-                aria-hidden='true'
-                xmlns='http://www.w3.org/2000/svg'
-                fill='white'
-                width={20}
-                viewBox='0 0 18 19'
-                data-astro-cid-3ef6ksr2=''
-              >
-                <path
-                  d='M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z'
-                  data-astro-cid-3ef6ksr2=''
-                />
-              </svg>
-            </span>{' '}
-            SOLAR + STORAGE MEXICO
-          </div>
-          <div>
-            <span className='text-uppercase'>{t('menu.banner')}</span>
-          </div>
-        </div>
-      </a>
       <Navbar className='menu-solar text-uppercase text-center' expand='lg'>
         <Container>
           <Navbar.Brand as={Link} to='/' className='d-grid text-white fs-6'>
-            <img
-              src='/SSM-logo-menu.webp'
-              width={150}
-              height={66}
-              alt='Solarpowermexico'
-            />
+            <img src='/logoREPLUS.webp' width={100} alt='RE+ México' />
           </Navbar.Brand>
           <Navbar.Toggle onClick={handleShow} />
           <Navbar.Offcanvas
@@ -170,7 +139,7 @@ export function Menu() {
                     {t('menu.submenu_2.option_6')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/CONTRACT-SSM-2024-V6.pdf'
+                    href='/files/REMEX-2025-SpaceAgreement-ED.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >

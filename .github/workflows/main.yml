@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - demo
+      - main
 name: 🚀 Deploy website on push main branch
 jobs:
   web-deploy:
@@ -24,6 +24,6 @@ jobs:
           server: '${{ secrets.SERVER }}'
           port: '${{ secrets.SSH_PORT }}'
           local_path: './dist/*'
-          remote_path: '/home/mexicosolarpower/public_html'
+          remote_path: '/home/hfmexico/public_html/re-plus-mexico.igeco.mx'
           sftp_only: true
           password: '${{ secrets.SFTP_PASSWORD }}'
