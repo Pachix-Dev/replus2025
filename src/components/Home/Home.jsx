@@ -43,12 +43,10 @@ export function Home() {
 
       <Container>
         <article className='mt-2'>
-          <Row className='pt-5'>
-            <Col md={6}>
+          <Row className='pt-5 '>
+            <Col md={6} className='mx-auto'>
               <div className='px-2'>
-                <p className='fw-bold fs-3 home-text-color'>
-                  SOLAR + STORAGE MEXICO 2024
-                </p>
+                <p className='fw-bold fs-3 home-text-color'>RE+ MEXICO</p>
                 <p className='fs-5 text-format'>
                   <strong>SOLAR + STORAGE MEXICO </strong>
                   <span
@@ -58,30 +56,6 @@ export function Home() {
                   />
                 </p>
               </div>
-            </Col>
-            <Col md={6} className='my-auto'>
-              {i18n.language === 'en' ? (
-                <video
-                  className='w-100'
-                  controls
-                  autoPlay
-                  muted
-                  src='/SSM-2024-ENG.mp4'
-                  poster='/posterSolarVideo2024ENG.webp'
-                  loading='lazy'
-                />
-              ) : (
-                <video
-                  className='w-100'
-                  controls
-                  src='/SSM-2024-ES.mp4'
-                  autoPlay
-                  muted
-                  loop
-                  poster='/posterSolarVideo2024.webp'
-                  loading='lazy'
-                />
-              )}
             </Col>
           </Row>
         </article>
