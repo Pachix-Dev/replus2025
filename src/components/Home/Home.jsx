@@ -335,7 +335,7 @@ export function Home() {
           </div>
         </section>
       </Container>
-      {/* ¿QUIERES SER PATROCINADOR?*/}
+      {/* ¿QUIERES SER PATROCINADOR?
       <section className='visitor-background py-5'>
         <Container className='text-center py-5'>
           <div data-aos='zoom-in' data-aos-duration='1000'>
@@ -361,7 +361,7 @@ export function Home() {
             </div>
           </div>
         </Container>
-      </section>
+      </section>*/}
       {/* ¿POR QUÉ ASISTIR? */}
       <Container>
         <section className='py-5'>

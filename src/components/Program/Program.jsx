@@ -1,34 +1,37 @@
-import React, { useState } from "react";
-import { Button, Container, Nav, Tab, Tabs } from "react-bootstrap";
-import { Row, Col } from "react-bootstrap";
-import { programSSM } from "../../constans_program";
-import { speakers } from "../../constans_speakers";
-import { useTranslation } from "react-i18next";
-import "./Program.css";
-import { DetailSpeaker } from "./DetailSpeaker";
-import OrderConferences from "./OrderConferences";
+import React, { useState } from 'react'
+import { Button, Container, Nav, Tab, Tabs } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
+import { programSSM } from '../../constans_program'
+import { speakers } from '../../constans_speakers'
+import { useTranslation } from 'react-i18next'
+import './Program.css'
+import { DetailSpeaker } from './DetailSpeaker'
+import OrderConferences from './OrderConferences'
 
 export function Program() {
-  const { i18n, t } = useTranslation();
-  const [programSolar, setPrograms] = useState(programSSM.stage_1);
-  const [show, setContent] = useState();
+  const { i18n, t } = useTranslation()
+  const [programSolar, setPrograms] = useState(programSSM.stage_1)
+  const [show, setContent] = useState()
 
-  const [modalShow, setModalShow] = useState(false);
-  const [detailSpeaker, setDetailSpeaker] = useState({});
+  const [modalShow, setModalShow] = useState(false)
+  const [detailSpeaker, setDetailSpeaker] = useState({})
 
   const handleModal2 = (speaker) => {
-    setDetailSpeaker(speaker);
-    setModalShow(true);
-  };
+    setDetailSpeaker(speaker)
+    setModalShow(true)
+  }
 
   return (
     <>
-      <div className="program-solar">
-        <Container className="py-5">
-          <p className="title-speakers fw-bold text-uppercase text-center text-light">
-            {t("program.title_1")}
+      <div className='program-solar'>
+        <Container className='py-5'>
+          <p className='title-speakers fw-bold text-uppercase text-center text-light'>
+            {t('program.title_1')}
           </p>
-          <Row>
+          <h2 className='mt-5 text-light text-center text-uppercase'>
+            {t('program.comming_soon')}
+          </h2>
+          {/*<Row>
             <Col
               className="text-center text-white py-5"
               sm={12}
@@ -145,7 +148,7 @@ export function Program() {
                 ))}
               </div>
             </div>
-          </Container>
+          </Container>*/}
         </Container>
       </div>
       <DetailSpeaker
@@ -154,5 +157,5 @@ export function Program() {
         speaker={detailSpeaker}
       />
     </>
-  );
+  )
 }

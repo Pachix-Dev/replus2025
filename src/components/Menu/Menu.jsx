@@ -105,7 +105,7 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_4')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/*<NavDropdown.Item
                     href={
                       i18n.language === 'en'
                         ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
@@ -139,19 +139,27 @@ export function Menu() {
                     {t('menu.submenu_2.option_6')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/REMEX-2025-SpaceAgreement-ED.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.submenu_2.option_7')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
                     href='https://spmx24.mapyourshow.com/8_0/exhview/index.cfm'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.submenu_2.option_8')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/toolkit'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_11')}
+                  </NavDropdown.Item>*/}
+                  <NavDropdown.Item
+                    href='/files/REMEX-2025-SpaceAgreement-ED.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_7')}
+                  </NavDropdown.Item>
+
                   <NavDropdown.Item
                     as={Link}
                     to='conference-program'
@@ -166,16 +174,9 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_13')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/rates' onClick={handleClose}>
+                  {/*<NavDropdown.Item as={Link} to='/rates' onClick={handleClose}>
                     {t('menu.submenu_2.option_10')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    as={Link}
-                    to='/toolkit'
-                    onClick={handleClose}
-                  >
-                    {t('menu.submenu_2.option_11')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item>*/}
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.submenu_3.title')}

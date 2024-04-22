@@ -15,7 +15,7 @@
             "option_4": "Exhibitor Services",
             "option_5": "Sponsorships SSM 2024",
             "option_6": "Factsheet SSM 2024",
-            "option_7": "Contract RE+ 2024",
+            "option_7": "Contract RE+ 2025",
             "option_8": "Floor plan RE+ 2024",
             "option_9": "Premium Conference program",
             "option_10": "Rates",
@@ -200,6 +200,7 @@
         "description2": "<ul><li>Legal/Legal Services</li><li>Press</li><li>Federal, State and Municipal Government and their Agencies</li><li>Solar Park Owners</li><li>Real Estate Developers</li><li>Corporate Developers</li><li>EIndustrial Park Developers</li><li>Sectoral Institutions</li><li>Research, Innovation Centers and Universities</li ></ul>"
     },
     "program": {
+        "comming_soon": "Coming soon more information...",
         "title_1": "PREMIUM CONFERENCE PROGRAM",
         "title_2": "EXPO HALL EDUCATION",
         "subtitle": "Let's create the industry of tomorrow.",
