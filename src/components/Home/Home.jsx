@@ -710,21 +710,21 @@ export function Home() {
           <Row className='mt-5 mb-5'>
             <Col lg={4} className='mt-3 text-center'>
               <lite-youtube
-                class='shadow-lg rounded testimonios-video'
+                class='shadow-lg rounded-3 testimonios-video'
                 videoid='FEN9FWUSjJs'
                 videotitle='Baywa'
               ></lite-youtube>
             </Col>
             <Col lg={4} className='mt-3 text-center'>
               <lite-youtube
-                class='shadow-lg rounded testimonios-video'
+                class='shadow-lg rounded-3 testimonios-video'
                 videoid='6ozntz0ZGXM'
                 videotitle='S-5'
               ></lite-youtube>
             </Col>
             <Col lg={4} className='mt-3 text-center'>
               <lite-youtube
-                class='shadow-lg rounded testimonios-video'
+                class='shadow-lg rounded-3 testimonios-video'
                 videoid='LJ5uBtHnV34'
                 videotitle='LONGI'
               ></lite-youtube>
@@ -741,7 +741,7 @@ export function Home() {
           </p>
         </div>
       </Container>
-      <Container className='pt-5 my-5'>
+      {/*<Container className='pt-5 my-5'>
         <h2
           className='fw-bold fs-2 pb-4 home-text-color text-uppercase text-center'
           style={{ color: '#8C3295' }}
@@ -833,7 +833,7 @@ export function Home() {
             <img src='/solar_qr.webp' alt='price-solar-storage' width='250' />
           </Col>
         </Row>
-      </Container>
+      </Container>/*}
       {/* CONTACTO */}
       <section className='visitor-background'>
         <p className='text-center fs-2 fw-bolder text-light pt-5 text-uppercase'>
