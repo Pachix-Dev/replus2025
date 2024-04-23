@@ -343,6 +343,9 @@
 .hero {
     font-family: 'Tungsten-Medium';
 }
+.testimonios-video{
+    height: 24rem;
+}
 @-webkit-keyframes blink {
     0% {
       opacity: 0.2;

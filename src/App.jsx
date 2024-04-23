@@ -23,18 +23,10 @@ import ScrollToTop from './components/ScrollToTop'
 import { Footer } from './components/Footer/Footer'
 import { trackPageView } from './google-analytics'
 import { Hotels } from './components/Hotels/Hotels'
-import { ModalBanner } from './components/Home/ModalBanner'
 import { AcademicProgram } from './components/AcademicProgram/AcademicProgram'
 
-function RouteWithHelmet({ title, element }) {
-  return (
-    <>
-      <Helmet>
-        <title>{`RE+ MEXICO | ${title}`}</title>
-      </Helmet>
-      {element}
-    </>
-  )
+function RouteWithHelmet({ element }) {
+  return <>{element}</>
 }
 
 function App() {

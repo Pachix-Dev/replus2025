@@ -23,9 +23,10 @@ import {
 } from '../../constans_logos'
 import { Bullets } from './Bullets'
 import { Hero } from './Hero'
+import '@justinribeiro/lite-youtube'
 
 export function Home() {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const [show, ref] = useNearScreen()
 
   useEffect(() => {
@@ -708,49 +709,25 @@ export function Home() {
           </p>
           <Row className='mt-5 mb-5'>
             <Col lg={4} className='mt-3 text-center'>
-              <a
-                href='https://www.youtube.com/watch?v=FEN9FWUSjJs'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  src='/video1.webp'
-                  alt='YouTube video preview'
-                  width={320}
-                  height={180}
-                  loading='lazy'
-                />
-              </a>
+              <lite-youtube
+                class='shadow-lg rounded testimonios-video'
+                videoid='FEN9FWUSjJs'
+                videotitle='Baywa'
+              ></lite-youtube>
             </Col>
             <Col lg={4} className='mt-3 text-center'>
-              <a
-                href='https://www.youtube.com/watch?v=6ozntz0ZGXM'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  src='/video2.webp'
-                  alt='YouTube video preview'
-                  width={320}
-                  height={180}
-                  loading='lazy'
-                />
-              </a>
+              <lite-youtube
+                class='shadow-lg rounded testimonios-video'
+                videoid='6ozntz0ZGXM'
+                videotitle='S-5'
+              ></lite-youtube>
             </Col>
             <Col lg={4} className='mt-3 text-center'>
-              <a
-                href='https://www.youtube.com/watch?v=LJ5uBtHnV34'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  src='/video3.webp'
-                  alt='YouTube video preview'
-                  width={320}
-                  height={180}
-                  loading='lazy'
-                />
-              </a>
+              <lite-youtube
+                class='shadow-lg rounded testimonios-video'
+                videoid='LJ5uBtHnV34'
+                videotitle='LONGI'
+              ></lite-youtube>
             </Col>
           </Row>
           <p className='text-center'>
@@ -1010,7 +987,7 @@ export function Home() {
         <div data-aos='fade-zoom-in' data-aos-delay='500'>
           <section className='pt-5'>
             <p className='fw-bold fs-2 text-center home-text-color'>
-              {t('home.gallery')} SSM 2023
+              {t('home.gallery')} SSM 2024
             </p>
             <Gallery />
             <p className='mt-5 text-center'>

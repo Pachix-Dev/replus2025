@@ -7,14 +7,18 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail'
 import lgZoom from 'lightgallery/plugins/zoom'
 
 const images = [
-  { src: '/gallery/gallery1.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery2.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery3.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery4.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery5.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery6.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery7.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery8.webp', width: 300, height: 169 },
+  { src: '/gallery/solar2024-1.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-2.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-3.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-4.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-5.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-6.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-7.webp', width: 300, height: 200 },
+  { src: '/gallery/solar2024-8.webp', width: 300, height: 169 },
+  { src: '/gallery/solar2024-9.webp', width: 300, height: 169 },
+  { src: '/gallery/solar2024-10.webp', width: 300, height: 169 },
+  { src: '/gallery/solar2024-11.webp', width: 300, height: 169 },
+  { src: '/gallery/solar2024-12.webp', width: 300, height: 169 },
 ]
 
 const Gallery = () => {
@@ -29,7 +33,7 @@ const Gallery = () => {
             style={{ objectFit: 'cover' }}
             height={200}
             loading='lazy'
-            alt='Energy Night 2023'
+            alt='Solar Storage MEXICO 2024'
           />
         </figure>
       ))}
