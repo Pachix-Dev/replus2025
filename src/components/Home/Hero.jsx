@@ -140,11 +140,10 @@ export function Hero() {
             className='logoREPLUS'
           />
         </div>
-        <h1 className='mt-5 text-white'>
-          MARZO | <span className=''>2025</span>
-        </h1>
-        <p className='text-white fs-4'>EXPO GUADALAJARA, JALISCO</p>
-        <p className='mt-5 text-white text-bold'>{t('home.organized_by')}:</p>
+        <p className='mt-5 fs-1 text-white'> {t("home.event-date")} | <span className=''>2025</span>
+        </p>
+        <p className='text-white fs-2'>EXPO GUADALAJARA, JALISCO</p>
+        <p className='mt-2 text-white text-bold'>{t('home.organized_by')}:</p>
         <img src='/logosOrganizado.webp' className='mt-2' />
       </section>
     )

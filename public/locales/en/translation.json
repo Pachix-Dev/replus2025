@@ -43,6 +43,7 @@
 
     },
     "home": {
+        "event-date": "March 5th - 7th",
         "program": "Premium Conference Program",
         "sponsorship": "Sponsorship & Experiences",
         "results": "Results report 2023",
@@ -238,7 +239,7 @@
         "subscription": "Suscribe",
         "project_manager": "Project director",
         "sales_manager": "Sponsorships and Experiences",
-        "event-date": "April 17th - 19th, 2024",
+        "event-date": "March 5th - 7th, 2025",
         "message_button": "Send message"
     },
     "hotels": {
