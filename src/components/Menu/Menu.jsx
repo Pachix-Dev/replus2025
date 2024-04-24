@@ -71,6 +71,17 @@ export function Menu() {
                   disabled
                 >
                   <NavDropdown.Item
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/RE+MEX_2025_FS_ENG_AC_24-04-2024.pdf'
+                        : '/files/RE+MEX_2025_FS_ESP_AC_24-04-2024.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_6')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
                     as={Link}
                     to='/contact'
                     onClick={handleClose}
