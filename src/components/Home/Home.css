@@ -307,6 +307,9 @@
 /*hero*/
 .hero{
     background-image: url('/bgREPLUS.webp');
+    background-repeat: no-repeat;
+    background-size: cover; /* o contain, auto, etc. */
+
     height: 100vh;
     display: grid;
     place-content: center;
