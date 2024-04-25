@@ -29,3 +29,9 @@ footer a:hover {
 .language-option-footer a{
     color: black !important;
 }
+
+.background-footer {
+    background: -webkit-linear-gradient(90deg, #bc0101,#d86a03);                    
+    background: linear-gradient(90deg, #bc0101,#d86a03);                                           
+  }
+

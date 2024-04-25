@@ -294,7 +294,7 @@
 .button-sponsors:hover,
 .btn-event-topics:hover {
     color: #ffffff;
-    background-color: #e7557a;
+    background-color: #09cb67;
 }
 
 .text-format {
@@ -349,6 +349,16 @@
 .testimonios-video{
     height: 24rem;
 }
+
+.background-section {
+    background: -webkit-linear-gradient(90deg, #bc0101,#d86a03);                    
+    background: linear-gradient(90deg, #bc0101,#d86a03);                                           
+  }
+
+  .card-price{
+    height: 700px;
+  }
+
 @-webkit-keyframes blink {
     0% {
       opacity: 0.2;

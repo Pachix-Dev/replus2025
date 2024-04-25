@@ -127,29 +127,36 @@
             "title": "BOOTHS",
             "sub-title": "PARTICIPATION FEES",
             "item1": {
-                "title1": "Raw Space minimum +18 SQM",
-                "price1": "",
-                "priece2": "USD 440.00 + VAT / SQM",
+                "title1": "Raw Space +18 sqm",
+                "price1-title":"Early Bird <br/> Valid until 30.06.24",
+                "price2-title":"Regular Rate ",
+                "price1": "USD 420.00 <br/> + VAT / sqm",
+                "priece2": "USD 460.00 <br/> + VAT / sqm",
                 "title2": "Includes",
-                "topic1": "Exhibitor badges",
-                "topic2": "Mention in the directory",
-                "topic3": "Excludes: carpet, construction, furniture and services."
+                "topic1": " Exhibitor badges",
+                "topic2": "mention in the directory",
+                "topic3": "Does NOT include: carpet, construction, furniture, or services"
             },
             "item2": {
                 "title1": "Shell Scheme Minimum of 9 SQM",
-                "price1": "USD 490.00 + VAT / SQM",
+                "price1-title":"Early Bird <br/> Valid until 30.06.24",
+                "price2-title":"Regular Rate ",
+                "price1": "USD 490.00 <br/> + VAT / SQM",
                 "title2": "Includes",
-                "topic1": "Standard carpet",
-                "topic2": "Partition walls",
-                "topic3": "Counter with vinyl signage",
-                "topic4": "Illumination",
-                "topic5": "Standard furniture",
-                "topic6": "One 110v electrical outlet",
-                "topic7": "Exhibitor badges",
-                "topic8": "Mention in the directory"
+                "topic1": "Standard Carpeting",
+                "topic2": "Dividing Partitions",
+                "topic3": "Vinyl Sign,",
+                "topic4": "Lighting",
+                "topic5": "Standard Furniture",
+                "topic6": "One 110v Electrical Contact",
+                "topic7": "Exhibitor Badges",
+                "topic8": "Mention In The Directory."
             },
             "item3": {
-                "title1": "Discover all our sponsorship options"
+                "title1": "Discounts 5 %",
+                "desc1":"One-time payment",
+                "desc2":"Discover all our sponsorship options",
+                "desc3":"COMING SOON"
             }
         },
         "button_contact": "send message",
