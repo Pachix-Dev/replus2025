@@ -152,7 +152,7 @@ export function Footer() {
                 <a href='mailto:sandra.elias@igeco.mx'>
                   <Button
                     size='sm'
-                    style={{ backgroundColor: '#570587', border: 'none' }}
+                    style={{ backgroundColor: '#c33704', border: 'none' }}
                   >
                     {' '}
                     {t('footer.message_button')}
@@ -175,7 +175,7 @@ export function Footer() {
                 <a href='mailto:samuel.ramirez@igeco.mx'>
                   <Button
                     size='sm'
-                    style={{ backgroundColor: '#570587', border: 'none' }}
+                    style={{ backgroundColor: '#c33704', border: 'none' }}
                   >
                     {' '}
                     {t('footer.message_button')}

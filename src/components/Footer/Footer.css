@@ -1,7 +1,11 @@
 .footer-socialmedia svg {
-    fill: #570587;
+    fill: #c33704;
     width: 30px;
     margin: 10px;
+}
+
+.footer-socialmedia svg:hover {
+    fill: #2fb503e1;
 }
 
 .footer-socialmedia {
@@ -18,7 +22,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #570587;
+    color: #c33704;
 }
 
 .footer-language{
