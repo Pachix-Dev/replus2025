@@ -376,7 +376,7 @@ export function Home() {
                   <h2 className="card-title fw-bold" dangerouslySetInnerHTML={{
                     __html: t("home.rates.item1.title1")
                   }} />
-                  <Row className='py-3'>
+                  <Row className='py-3 align-items-end'>
                     <Col>
                       <p className='fw-bold text-danger' dangerouslySetInnerHTML={{
                         __html: t("home.rates.item1.price1-title")
@@ -410,7 +410,7 @@ export function Home() {
                   <h2 className="card-title fw-bold" dangerouslySetInnerHTML={{
                     __html: t("home.rates.item2.title1")
                   }} />
-                  <Row className='py-3'>
+                  <Row className='py-3 align-items-end'>
                     <Col>
                       <p className='fw-bold text-danger' dangerouslySetInnerHTML={{
                         __html: t("home.rates.item2.price1-title")
