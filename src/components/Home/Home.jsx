@@ -455,6 +455,7 @@ export function Home() {
           </Row>
         </div>
       </Container>
+
       {/* ¿POR QUÉ ASISTIR? */}
       <Container>
         <section className='py-5'>
@@ -503,7 +504,9 @@ export function Home() {
           </Row>
         </section>
       </Container>
-      <Container fluid>
+
+      {/* Numeralia de resultados */}
+      {/* <Container fluid>
         <section className='mt-5'>
           <Row className='text-light'>
             <Col md className='background_num1 position-num'>
@@ -566,7 +569,9 @@ export function Home() {
             </Col>
           </Row>
         </section>
-      </Container>
+      </Container> */}
+
+      
       <div className='background-section'>
         <Container className='py-5'>
           <p className='text-center fs-2 fw-bolder text-light'>
@@ -1185,7 +1190,8 @@ export function Home() {
           </Marquee>
         </Container>
       </section>
-      <section>
+      {/* se elimina numeralia de redes */}
+      {/* <section>
         <div data-aos='zoom-in' data-aos-duration='2500' ref={ref}>
           {show && (
             <Container className='my-5'>
@@ -1260,7 +1266,7 @@ export function Home() {
             </Container>
           )}
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
