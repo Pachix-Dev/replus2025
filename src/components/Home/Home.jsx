@@ -24,6 +24,7 @@ import {
 import { Bullets } from './Bullets'
 import { Hero } from './Hero'
 import '@justinribeiro/lite-youtube'
+import VisitorExperiences from '../VisitorExperiences/VisitorExperiences'
 
 export function Home() {
   const { t } = useTranslation()
@@ -710,6 +711,7 @@ export function Home() {
           </Row>
         </Container>
       </div>
+
       <Container>
         <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
           {t('home.exhibitors')} 2024
@@ -795,7 +797,8 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-      <Container className='py-5'>
+
+      {/* <Container className='py-5'>
         <div
           data-aos='fade-up'
           data-aos-anchor-placement='top-bottom'
@@ -837,7 +840,24 @@ export function Home() {
             </Link>
           </p>
         </div>
+      </Container> */}
+
+      <Container className='my-5'>
+      <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
+            {t('home.title-testimonials')}
+          </p>
+        <VisitorExperiences className='p-5'/>
+        <p className='text-center pt-5'>
+            <Link
+              to='/videos'
+              aria-label='Videos'
+              className='text-decoration-none'
+            >
+              <span className='learnmore'>{t('home.more_videos')}</span>
+            </Link>
+          </p>
       </Container>
+      
 
       {/* CONTACTO */}
       <section className='background-section'>

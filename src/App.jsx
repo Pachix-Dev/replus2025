@@ -25,6 +25,9 @@ import { trackPageView } from './google-analytics'
 import { Hotels } from './components/Hotels/Hotels'
 import { AcademicProgram } from './components/AcademicProgram/AcademicProgram'
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function RouteWithHelmet({ element }) {
   return <>{element}</>
 }
