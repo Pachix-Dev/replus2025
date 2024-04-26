@@ -81,6 +81,23 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_6')}
                   </NavDropdown.Item>
+                 
+
+                  <NavDropdown.Item
+                    href=''
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_8')} 2025
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/REMEX_2025-v6-042424-reserve-floor-plan.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_7')}
+                  </NavDropdown.Item>
+
                   <NavDropdown.Item
                     as={Link}
                     to='/contact'
@@ -88,6 +105,7 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_1')}
                   </NavDropdown.Item>
+
                   <NavDropdown.Item
                     as={Link}
                     to='/why-exhibit'
@@ -109,6 +127,7 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_4')}
                   </NavDropdown.Item>
+                  
                   {/*<NavDropdown.Item
                     href={
                       i18n.language === 'en'
@@ -156,13 +175,6 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_11')}
                   </NavDropdown.Item>*/}
-                  <NavDropdown.Item
-                    href='/files/REMEX_2025_SpaceAgreement ED.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.submenu_2.option_7')}
-                  </NavDropdown.Item>
 
                   <NavDropdown.Item
                     as={Link}
