@@ -27,7 +27,7 @@ import '@justinribeiro/lite-youtube'
 import VisitorExperiences from '../VisitorExperiences/VisitorExperiences'
 
 export function Home() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [show, ref] = useNearScreen()
 
   useEffect(() => {
@@ -63,7 +63,7 @@ export function Home() {
         </article>
         {/* Patrocinadores */}
         <section>
-          <div className='mt-5 pt-5 pb-5 text-center'>
+          <div className='mt-5 pb-5 text-center'>
             <p className='fw-bold fs-2'>{t('home.sponsor_platinum')}</p>
             <a
               href='https://consumer.huawei.com/mx/'
@@ -337,13 +337,13 @@ export function Home() {
           </div>
         </section>
       </Container>
-      {/* ¿QUIERES SER PATROCINADOR?
-      <section className='visitor-background py-5'>
+      
+      {/* ¿QUIERES SER PATROCINADOR? */}
+      {/* <section className='visitor-background py-5'>
         <Container className='text-center py-5'>
           <div data-aos='zoom-in' data-aos-duration='1000'>
             <p className='text-light fs-1 fw-bold text-uppercase'>
-              {' '}
-              {t('home.sponsors.title')}{' '}
+              {t('home.sponsors.title')}
             </p>
             <div className='d-block d-flex align-items-center justify-content-center pt-3 mt-4'>
               <a
@@ -356,14 +356,13 @@ export function Home() {
                 target='_blank'
               >
                 <p className='fs-5 fw-bold button-sponsors d-flex align-items-center justify-content-center p-2'>
-                  {' '}
-                  {t('home.sponsors.description')}{' '}
+                  {t('home.sponsors.description')}
                 </p>
               </a>
             </div>
           </div>
         </Container>
-      </section>*/}
+      </section> */}
 
       {/* Precios 2025 */}
       <Container fluid className='background-section py-5'>
@@ -797,50 +796,6 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-
-      {/* <Container className='py-5'>
-        <div
-          data-aos='fade-up'
-          data-aos-anchor-placement='top-bottom'
-          data-aos-duration='2000'
-        >
-          <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
-            {t('home.title-testimonials')}
-          </p>
-          <Row className='mt-5 mb-5'>
-            <Col lg={4} className='mt-3 text-center'>
-              <lite-youtube
-                class='shadow-lg rounded-3 testimonios-video'
-                videoid='FEN9FWUSjJs'
-                videotitle='Baywa'
-              ></lite-youtube>
-            </Col>
-            <Col lg={4} className='mt-3 text-center'>
-              <lite-youtube
-                class='shadow-lg rounded-3 testimonios-video'
-                videoid='6ozntz0ZGXM'
-                videotitle='S-5'
-              ></lite-youtube>
-            </Col>
-            <Col lg={4} className='mt-3 text-center'>
-              <lite-youtube
-                class='shadow-lg rounded-3 testimonios-video'
-                videoid='LJ5uBtHnV34'
-                videotitle='LONGI'
-              ></lite-youtube>
-            </Col>
-          </Row>
-          <p className='text-center'>
-            <Link
-              to='/videos'
-              aria-label='Videos'
-              className='text-decoration-none'
-            >
-              <span className='learnmore'>{t('home.more_videos')}</span>
-            </Link>
-          </p>
-        </div>
-      </Container> */}
       <Container className='my-5'>
       <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
             {t('home.title-testimonials')}
