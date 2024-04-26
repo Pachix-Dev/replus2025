@@ -7,7 +7,7 @@ export default function VisitorExperiences() {
         infinite: true,
         speed: 1000,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         initialSlide: 0,
         autoplay: false,
         autoplaySpeed: 500,
@@ -41,41 +41,47 @@ export default function VisitorExperiences() {
     return (
         <div className="slider-container">
             <Slider {...settings}>
-                <div className="text-center">
-                    <video width="300" height="360" controls className="rounded-3 bg-black" loading='lazy'>
-                        <source src="/huaweiSolar.mp4" type="video/mp4"/>
-                            Your browser does not support the video tag.
-                    </video>
+                <div className="text-center px-3">
+                    <lite-youtube
+                        class='shadow-lg rounded-3 testimonios-video '
+                        videoid='4yjpMxuDMTA'
+                        videotitle='Quartux'
+                    ></lite-youtube>
                 </div>
-                <div className="text-center">
-                    <video width="300" height="360" controls className="rounded-3 bg-black" loading='lazy'>
-                        <source src="/longiSolar.mp4" type="video/mp4"/>
-                            Your browser does not support the video tag.
-                    </video>
+                <div className="text-center px-3">
+                    <lite-youtube
+                        class='shadow-lg rounded-3 testimonios-video'
+                        videoid='Ws9BBT7zILk'
+                        videotitle='Huawei Solar'
+                    ></lite-youtube>
                 </div>
-                <div className="text-center">
-                    <video width="300" height="360" controls className="rounded-3 bg-black">
-                        <source src="/WTS.mp4" type="video/mp4"/>
-                            Your browser does not support the video tag.
-                    </video>
+                <div className="text-center px-3">
+                    <lite-youtube
+                        class='shadow-lg rounded-3 testimonios-video'
+                        videoid='Ca1D_cxJYbs'
+                        videotitle='S-5'
+                    ></lite-youtube>
                 </div>
-                <div className="text-center">
-                    <video width="300" height="360" controls className="rounded-3 bg-black">
-                        <source src="/S-5.mp4" type="video/mp4"/>
-                            Your browser does not support the video tag.
-                    </video>
+                <div className="text-center px-3">
+                    <lite-youtube
+                        class='shadow-lg rounded-3 testimonios-video'
+                        videoid='JiP0kqlvXFw'
+                        videotitle='Enlight'
+                    ></lite-youtube>
                 </div>
-                <div className="text-center">
-                    <video width="300" height="360" controls className="rounded-3 bg-black">
-                        <source src="/enlight.mp4" type="video/mp4"/>
-                            Your browser does not support the video tag.
-                    </video>
+                <div className="text-center px-3">
+                    <lite-youtube
+                        class='shadow-lg rounded-3 testimonios-video'
+                        videoid='4h8S2b3j_I4'
+                        videotitle='Longi Solar'
+                    ></lite-youtube>
                 </div>
-                <div className="text-center">
-                    <video width="300" height="360" controls className="rounded-3 bg-black">
-                        <source src="/quartux.mp4" type="video/mp4"/>
-                            Your browser does not support the video tag.
-                    </video>
+                <div className="text-center px-3">
+                    <lite-youtube
+                        class='shadow-lg rounded-3 testimonios-video'
+                        videoid='470LAzxXxJs'
+                        videotitle='WTS'
+                    ></lite-youtube>
                 </div>
             </Slider>
         </div>
