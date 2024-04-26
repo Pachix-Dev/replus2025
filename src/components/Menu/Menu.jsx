@@ -90,7 +90,7 @@ export function Menu() {
                     {t('menu.submenu_2.option_8')} 2025
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/REMEX_2025-v6-042424-reserve-floor-plan.pdf'
+                    href='/files/REMEX_2025_SpaceAgreement ED.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
