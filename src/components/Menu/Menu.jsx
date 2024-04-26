@@ -157,7 +157,7 @@ export function Menu() {
                     {t('menu.submenu_2.option_11')}
                   </NavDropdown.Item>*/}
                   <NavDropdown.Item
-                    href='/files/REMEX-2025-SpaceAgreement-ED.pdf'
+                    href='/files/REMEX_2025_SpaceAgreement ED.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
