@@ -841,7 +841,6 @@ export function Home() {
           </p>
         </div>
       </Container> */}
-
       <Container className='my-5'>
       <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
             {t('home.title-testimonials')}
@@ -857,8 +856,6 @@ export function Home() {
             </Link>
           </p>
       </Container>
-      
-
       {/* CONTACTO */}
       <section className='background-section'>
         <p className='text-center fs-2 fw-bolder text-light pt-5 text-uppercase'>
@@ -1139,7 +1136,6 @@ export function Home() {
           </Row>
         </section>
       </Container>
-
       <section className='mt-5'>
         <Container>
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
