@@ -89,13 +89,6 @@ export function Menu() {
                     {t('menu.submenu_2.option_1')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/DIRECTORIO_SOLAR_15-04-2024 _AC.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.directory')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
                     as={Link}
                     to='/why-exhibit'
                     onClick={handleClose}
@@ -221,6 +214,21 @@ export function Menu() {
                   renderMenuOnMount
                   disabled
                 >
+                  <p className='mb-0 fw-bold'>SSM 2024</p>
+                  <NavDropdown.Item
+                    href='/files/After_Show Report_ECO_SOLAR_AF_2024.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_4.results')} SSM 2024
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/DIRECTORIO_SOLAR_15-04-2024 _AC.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_4.directory')} SSM 2024
+                  </NavDropdown.Item>
                   <p className='mb-0 fw-bold'>SSM 2023</p>
                   <NavDropdown.Item
                     href={
@@ -240,7 +248,6 @@ export function Menu() {
                   >
                     {t('menu.submenu_4.directory')} SSM 2023
                   </NavDropdown.Item>
-
                   <p className='mb-0 fw-bold'>SPM 2022</p>
                   <NavDropdown.Item
                     href={
