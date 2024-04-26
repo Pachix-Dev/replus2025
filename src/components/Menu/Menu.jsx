@@ -216,7 +216,11 @@ export function Menu() {
                 >
                   <p className='mb-0 fw-bold'>SSM 2024</p>
                   <NavDropdown.Item
-                    href='/files/After_Show Report_ECO_SOLAR_AF_2024.pdf'
+                   href={
+                    i18n.language === 'en'
+                      ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v2.pdf'
+                      : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v2.pdf'
+                  }
                     target='_blank'
                     onClick={handleClose}
                   >
