@@ -61,6 +61,25 @@ export function Home() {
             </Col>
           </Row>
         </article>
+        <section className='py-5'>
+          <div className='container-items'>
+            <a href={
+              i18n.language === 'en'
+                ? '/files/RE+MEX_2025_FS_ENG_AC_24-04-2024.pdf'
+                : '/files/RE+MEX_2025_FS_ESP_AC_24-04-2024.pdf'
+            } target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_6")}  </div></a>
+            <a href='/files/REMEX_2025-v6-042424-reserve-floor-plan.pdf'
+              target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_8")} 2025 </div></a>
+            <a href='/files/REMEX_2025_SpaceAgreement ED.pdf'
+              target='_blank' className='text-decoration-none'><div className='btn-item'>  {t("menu.submenu_2.option_7")} </div></a>
+            <a href={
+              i18n.language === 'en'
+                ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
+                : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
+            }
+              target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_4.results")} 2024 </div></a>
+          </div>
+        </section>
         {/* Patrocinadores */}
         <section>
           <div className='mt-5 pb-5 text-center'>
@@ -337,7 +356,7 @@ export function Home() {
           </div>
         </section>
       </Container>
-      
+
       {/* ¿QUIERES SER PATROCINADOR? */}
       {/* <section className='visitor-background py-5'>
         <Container className='text-center py-5'>
@@ -571,7 +590,7 @@ export function Home() {
         </section>
       </Container> */}
 
-      
+
       <div className='background-section'>
         <Container className='py-5'>
           <p className='text-center fs-2 fw-bolder text-light'>
@@ -797,19 +816,19 @@ export function Home() {
         </Marquee>
       </Container>
       <Container className='my-5'>
-      <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
-            {t('home.title-testimonials')}
-          </p>
-        <VisitorExperiences className='p-5'/>
+        <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
+          {t('home.title-testimonials')}
+        </p>
+        <VisitorExperiences className='p-5' />
         <p className='text-center pt-5'>
-            <Link
-              to='/videos'
-              aria-label='Videos'
-              className='text-decoration-none'
-            >
-              <span className='learnmore'>{t('home.more_videos')}</span>
-            </Link>
-          </p>
+          <Link
+            to='/videos'
+            aria-label='Videos'
+            className='text-decoration-none'
+          >
+            <span className='learnmore'>{t('home.more_videos')}</span>
+          </Link>
+        </p>
       </Container>
       {/* CONTACTO */}
       <section className='background-section'>

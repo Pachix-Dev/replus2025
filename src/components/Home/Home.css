@@ -355,9 +355,42 @@
     background: linear-gradient(90deg, #bc0101,#d86a03);                                           
   }
 
+  .container-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .btn-item{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 40px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 1px 2px 8px black;
+    background: -webkit-linear-gradient(0deg, #bc0101,#d86a03);                    
+    background: linear-gradient(10deg, #bc0101,#d86a03);   
+}
+
+  
+  .btn-item:hover{
+    background: rgb(112,110,112);
+    background: linear-gradient(19deg, rgba(112,110,112,1) 14%, rgba(236,131,2,1) 89%); 
+    transition: 6s;
+  }
+
   .card-price{
     height: 700px;
   }
+  
 
 @-webkit-keyframes blink {
     0% {
@@ -464,6 +497,11 @@
         height: 95px;
         width: 190px;
     }
+
+    .container-items{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 431px) {
@@ -515,6 +553,11 @@
 
     .container-banner {
         width: 100%;
+    }
+
+    .container-items{
+        display: flex;
+        flex-direction: column;
     }
     
 }
