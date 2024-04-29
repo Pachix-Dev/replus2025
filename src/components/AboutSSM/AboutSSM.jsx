@@ -20,7 +20,7 @@ export function AboutSSM () {
                 <strong>RE+ MEXICO</strong>
                 <span dangerouslySetInnerHTML={{ __html: t('AboutSSM.description') }} />
               </p>
-              <p className='text-center fw-bold'>{t('AboutSSM.description2')}</p>
+              <p className='text-center fw-bold' dangerouslySetInnerHTML={{ __html: t('AboutSSM.description2') }} />
             </Col>
             <Col md>
               <img src='/gallery/gallerySSM2023-7.jpg' alt='' className='w-100 h-100 object-fit-cover' />
