@@ -7,7 +7,7 @@ export function AboutSSM () {
     <>
       <Container className='mt-5'>
         <i className='text-secondary'>
-          SOLAR + STORAGE MEXICO
+          RE+ MEXICO
         </i>
         <p className='fs-2 fw-bold'>
           {t('AboutSSM.title')}
@@ -17,7 +17,7 @@ export function AboutSSM () {
           <Row className='m-0'>
             <Col md className='p-3 bg-secondary-text'>
               <p>
-                <strong>SOLAR + STORAGE MEXICO</strong>
+                <strong>RE+ MEXICO</strong>
                 <span dangerouslySetInnerHTML={{ __html: t('AboutSSM.description') }} />
               </p>
               <p className='text-center fw-bold'>{t('AboutSSM.description2')}</p>

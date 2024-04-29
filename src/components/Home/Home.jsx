@@ -50,7 +50,7 @@ export function Home() {
               <div className='px-2'>
                 <p className='fw-bold fs-3 home-text-color'>RE+ MEXICO</p>
                 <p className='fs-5 text-format'>
-                  <strong>SOLAR + STORAGE MEXICO </strong>
+                  <strong>RE+ MEXICO </strong>
                   <span
                     dangerouslySetInnerHTML={{
                       __html: t('home.solar_description'),
