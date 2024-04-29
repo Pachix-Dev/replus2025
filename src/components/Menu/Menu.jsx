@@ -238,7 +238,7 @@ export function Menu() {
                     {t('menu.submenu_4.results')} SSM 2024
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/DIRECTORIO_SOLAR_15-04-2024 _AC.pdf'
+                    href='/files/DIRECTORIO SOLAR_2024_29-04-2024- ACC_v3.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >

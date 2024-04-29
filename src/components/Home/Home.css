@@ -375,6 +375,7 @@
     text-align: center;
     color: #ffffff;
     font-weight: 700;
+    transition: all 0.5s ease;
     box-shadow: 1px 2px 8px black;
     background: -webkit-linear-gradient(0deg, #bc0101,#d86a03);                    
     background: linear-gradient(10deg, #bc0101,#d86a03);   
@@ -384,7 +385,6 @@
   .btn-item:hover{
     background: rgb(112,110,112);
     background: linear-gradient(19deg, rgba(112,110,112,1) 14%, rgba(236,131,2,1) 89%); 
-    transition: 6s;
   }
 
   .card-price{
