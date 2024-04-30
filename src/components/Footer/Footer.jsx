@@ -70,7 +70,7 @@ export function Footer() {
       <Container>
         <div className='footer-socialmedia mt-5'>
           <a
-            href='https://www.facebook.com/solar.storage.mexico'
+            href='https://www.facebook.com/REPlusMexico'
             target='_blank'
             rel='noreferrer'
           >
@@ -111,7 +111,7 @@ export function Footer() {
             </svg>
           </a>
           <a
-            href='https://www.instagram.com/solarstoragemx/'
+            href='https://www.instagram.com/replusmexico/'
             target='_blank'
             rel='noreferrer'
           >
