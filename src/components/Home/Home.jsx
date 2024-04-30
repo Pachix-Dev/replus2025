@@ -383,8 +383,57 @@ export function Home() {
         </Container>
       </section> */}
 
-      {/* Precios 2025 */}
-      <Container fluid className='background-section py-5'>
+      {/* ¿POR QUÉ ASISTIR? */}
+      <Container>
+        <section className='py-5'>
+          <p
+            className='text-center fs-2 fw-bolder'
+            style={{ color: '#8C3295' }}
+          >
+            {' '}
+            {t('home.attend.reasons_visiting_title')}{' '}
+          </p>
+          <Row className='text-center fs-6 fw-semibold fst-italic pt-4'>
+            <Col xs={12} md={4} lg={4}>
+              <div data-aos='flip-left' data-aos-duration='1000'>
+                <img src='/attend_icon_1.webp' alt='' width='100' />
+                <p className='mt-3 mx-5'> {t('home.attend.item_1')} </p>
+              </div>
+            </Col>
+            <Col xs={12} md={4} lg={4}>
+              <div data-aos='flip-left' data-aos-duration='1000'>
+                <img src='/attend_icon_2.webp' alt='' width='100' />
+                <p className='mt-3 mx-5'> {t('home.attend.item_2')} </p>
+              </div>
+            </Col>
+            <Col xs={12} md={4} lg={4}>
+              <div data-aos='flip-left' data-aos-duration='1000'>
+                <img src='/attend_icon_3.webp' alt='' width='100' />
+                <p className='mt-3 mx-5'> {t('home.attend.item_3')} </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className='text-center fs-6 fw-semibold fst-italic mt-5'>
+            <Col xs={4} lg={2}></Col>
+            <Col xs={12} md={4} lg={4}>
+              <div data-aos='flip-left' data-aos-duration='1000'>
+                <img src='/attend_icon_4.webp' alt='' width='100' />
+                <p className='mt-3 mx-5'> {t('home.attend.item_4')} </p>
+              </div>
+            </Col>
+            <Col xs={12} md={4} lg={4}>
+              <div data-aos='flip-left' data-aos-duration='1000'>
+                <img src='/attend_icon_5.webp' alt='' width='100' />
+                <p className='mt-3 mx-5'> {t('home.attend.item_5')} </p>
+              </div>
+            </Col>
+            <Col ls={2}></Col>
+          </Row>
+        </section>
+      </Container>
+
+       {/* Precios 2025 */}
+       <Container fluid className='background-section py-5'>
         <h2 className='fw-bold fs-2 pb-2 text-white text-uppercase text-center'>RE+ MEXICO {t('home.rates.title')} 2025 </h2>
         <p className='fst-italic fs-4 mb-5 text-center text-white '> {t('home.rates.sub-title')}</p>
         <div>
@@ -474,122 +523,6 @@ export function Home() {
           </Row>
         </div>
       </Container>
-
-      {/* ¿POR QUÉ ASISTIR? */}
-      <Container>
-        <section className='py-5'>
-          <p
-            className='text-center fs-2 fw-bolder'
-            style={{ color: '#8C3295' }}
-          >
-            {' '}
-            {t('home.attend.reasons_visiting_title')}{' '}
-          </p>
-          <Row className='text-center fs-6 fw-semibold fst-italic pt-4'>
-            <Col xs={12} md={4} lg={4}>
-              <div data-aos='flip-left' data-aos-duration='1000'>
-                <img src='/attend_icon_1.webp' alt='' width='100' />
-                <p className='mt-3 mx-5'> {t('home.attend.item_1')} </p>
-              </div>
-            </Col>
-            <Col xs={12} md={4} lg={4}>
-              <div data-aos='flip-left' data-aos-duration='1000'>
-                <img src='/attend_icon_2.webp' alt='' width='100' />
-                <p className='mt-3 mx-5'> {t('home.attend.item_2')} </p>
-              </div>
-            </Col>
-            <Col xs={12} md={4} lg={4}>
-              <div data-aos='flip-left' data-aos-duration='1000'>
-                <img src='/attend_icon_3.webp' alt='' width='100' />
-                <p className='mt-3 mx-5'> {t('home.attend.item_3')} </p>
-              </div>
-            </Col>
-          </Row>
-          <Row className='text-center fs-6 fw-semibold fst-italic mt-5'>
-            <Col xs={4} lg={2}></Col>
-            <Col xs={12} md={4} lg={4}>
-              <div data-aos='flip-left' data-aos-duration='1000'>
-                <img src='/attend_icon_4.webp' alt='' width='100' />
-                <p className='mt-3 mx-5'> {t('home.attend.item_4')} </p>
-              </div>
-            </Col>
-            <Col xs={12} md={4} lg={4}>
-              <div data-aos='flip-left' data-aos-duration='1000'>
-                <img src='/attend_icon_5.webp' alt='' width='100' />
-                <p className='mt-3 mx-5'> {t('home.attend.item_5')} </p>
-              </div>
-            </Col>
-            <Col ls={2}></Col>
-          </Row>
-        </section>
-      </Container>
-
-      {/* Numeralia de resultados */}
-      {/* <Container fluid>
-        <section className='mt-5'>
-          <Row className='text-light'>
-            <Col md className='background_num1 position-num'>
-              <div>
-                <Bullets number='7500' duration='6' simbol_1='+' />
-                <div className='text-center fw-bold text-light'>
-                  <i className='fs-5'>{t('home.bullet_1')}</i>
-                </div>
-              </div>
-            </Col>
-            <Col md className='background_num2 position-num'>
-              <div>
-                <Bullets
-                  number='13000'
-                  duration='6'
-                  simbol_2={t('home.bullet_6')}
-                />
-                <div className='text-center fw-bold text-light'>
-                  <i className='fs-5'>{t('home.bullet_2')}</i>
-                </div>
-              </div>
-            </Col>
-            <Col md className='background_num3 position-num'>
-              <div>
-                <Bullets number='120' duration='6' simbol_1='+' />
-                <div className='text-center fw-bold text-light'>
-                  <i className='fs-5'>{t('home.bullet_3')}</i>
-                  <br />
-                  <br />
-                </div>
-              </div>
-            </Col>
-            <Col md className='background_num4 position-num'>
-              <div>
-                <Bullets
-                  number='462'
-                  duration='6'
-                  simbol_1='+'
-                  simbol_2={t('home.bullet_7')}
-                />
-                <div className='text-center fw-bold text-light'>
-                  <i className='fs-5'>{t('home.bullet_4')}</i>
-                  <br />
-                  <i>(2023)</i>
-                </div>
-              </div>
-            </Col>
-            <Col md className='background_num5 position-num'>
-              <div>
-                <Bullets
-                  number='6'
-                  duration='6'
-                  simbol_1='+'
-                  simbol_2={t('home.bullet_7')}
-                />
-                <div className='text-center fw-bold text-light'>
-                  <i className='fs-5'>{t('home.bullet_5')}</i>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </section>
-      </Container> */}
-
 
       <div className='background-section'>
         <Container className='py-5'>
@@ -730,6 +663,72 @@ export function Home() {
         </Container>
       </div>
 
+      {/* Numeralia de resultados */}
+      {/* <Container fluid>
+        <section className='mt-5'>
+          <Row className='text-light'>
+            <Col md className='background_num1 position-num'>
+              <div>
+                <Bullets number='7500' duration='6' simbol_1='+' />
+                <div className='text-center fw-bold text-light'>
+                  <i className='fs-5'>{t('home.bullet_1')}</i>
+                </div>
+              </div>
+            </Col>
+            <Col md className='background_num2 position-num'>
+              <div>
+                <Bullets
+                  number='13000'
+                  duration='6'
+                  simbol_2={t('home.bullet_6')}
+                />
+                <div className='text-center fw-bold text-light'>
+                  <i className='fs-5'>{t('home.bullet_2')}</i>
+                </div>
+              </div>
+            </Col>
+            <Col md className='background_num3 position-num'>
+              <div>
+                <Bullets number='120' duration='6' simbol_1='+' />
+                <div className='text-center fw-bold text-light'>
+                  <i className='fs-5'>{t('home.bullet_3')}</i>
+                  <br />
+                  <br />
+                </div>
+              </div>
+            </Col>
+            <Col md className='background_num4 position-num'>
+              <div>
+                <Bullets
+                  number='462'
+                  duration='6'
+                  simbol_1='+'
+                  simbol_2={t('home.bullet_7')}
+                />
+                <div className='text-center fw-bold text-light'>
+                  <i className='fs-5'>{t('home.bullet_4')}</i>
+                  <br />
+                  <i>(2023)</i>
+                </div>
+              </div>
+            </Col>
+            <Col md className='background_num5 position-num'>
+              <div>
+                <Bullets
+                  number='6'
+                  duration='6'
+                  simbol_1='+'
+                  simbol_2={t('home.bullet_7')}
+                />
+                <div className='text-center fw-bold text-light'>
+                  <i className='fs-5'>{t('home.bullet_5')}</i>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </section>
+      </Container> */}
+
       <Container>
         <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
           {t('home.exhibitors')} 2024
@@ -815,6 +814,7 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
+      
       <Container className='my-5'>
         <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
           {t('home.title-testimonials')}
