@@ -17,10 +17,10 @@ export function AboutSSM () {
           <Row className='m-0'>
             <Col md className='p-3 bg-secondary-text'>
               <p>
-                <strong>RE+ MEXICO</strong>
-                <span dangerouslySetInnerHTML={{ __html: t('AboutSSM.description') }} />
+                <strong>RE+ MEXICO</strong><br /><br />
+                <span className='description-text' dangerouslySetInnerHTML={{ __html: t('AboutSSM.description') }}/>
               </p>
-              <p className='text-center fw-bold' dangerouslySetInnerHTML={{ __html: t('AboutSSM.description2') }} />
+              <p className='text-center fw-bold' dangerouslySetInnerHTML={{ __html: t('AboutSSM.description2') }}/>
             </Col>
             <Col md>
               <img src='/gallery/gallerySSM2023-7.jpg' alt='' className='w-100 h-100 object-fit-cover' />
