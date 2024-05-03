@@ -137,7 +137,7 @@ export function Footer() {
             </p>
           </Col>
           <Col md>
-            <Row className='mb-5'>
+            {/* <Row className='mb-5'>
               <Col xs={4} md={12} lg={3}>
                 <Image src='/sandra.webp' roundedCircle width='85' />
               </Col>
@@ -159,7 +159,7 @@ export function Footer() {
                   </Button>
                 </a>
               </Col>
-            </Row>
+            </Row> */}
             <Row className='mb-5'>
               <Col xs={4} md={12} lg={3}>
                 <Image src='/samuel-ramirez.webp' roundedCircle width='85' />
