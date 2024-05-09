@@ -98,6 +98,18 @@ export function Menu() {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/RE+ MEXICO SPONSORSHIPS 2025 ENG_v3.pdf'
+                        : '/files/RE+ MEXICO SPONSORSHIPS 2025 ESP_v3.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_14')}
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item
                     as={Link}
                     to='/contact'
                     onClick={handleClose}
