@@ -358,7 +358,7 @@ export function Home() {
       </Container>
 
       {/* ¿QUIERES SER PATROCINADOR? */}
-      {/* <section className='visitor-background py-5'>
+      <section className='background-section py-5'>
         <Container className='text-center py-5'>
           <div data-aos='zoom-in' data-aos-duration='1000'>
             <p className='text-light fs-1 fw-bold text-uppercase'>
@@ -369,8 +369,8 @@ export function Home() {
                 className='text-decoration-none text-black'
                 href={
                   i18n.language === 'en'
-                    ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
-                    : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
+                    ? '/files/RE+ MEXICO SPONSORSHIPS 2025 ENG_v3.pdf'
+                    : '/files/RE+ MEXICO SPONSORSHIPS 2025 ESP_v3.pdf'
                 }
                 target='_blank'
               >
@@ -381,14 +381,14 @@ export function Home() {
             </div>
           </div>
         </Container>
-      </section> */}
+      </section>
 
       {/* ¿POR QUÉ ASISTIR? */}
       <Container>
         <section className='py-5'>
           <p
             className='text-center fs-2 fw-bolder'
-            style={{ color: '#8C3295' }}
+            style={{ color: '#bc0101' }}
           >
             {' '}
             {t('home.attend.reasons_visiting_title')}{' '}
