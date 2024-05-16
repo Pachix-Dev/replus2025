@@ -70,7 +70,7 @@ export function Home() {
             } target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_6")}  </div></a>
             <a href='/files/REMEX_2025-v6-042424-reserve-floor-plan.pdf'
               target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_8")} 2025 </div></a>
-            <a href='/files/REMEX_2025_SpaceAgreement ED.pdf'
+            <a href='/files/REMEX_2025_SpaceAgreement_ED_160524.pdf'
               target='_blank' className='text-decoration-none'><div className='btn-item'>  {t("menu.submenu_2.option_7")} </div></a>
             <a href={
               i18n.language === 'en'
