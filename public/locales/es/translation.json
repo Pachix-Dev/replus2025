@@ -12,7 +12,7 @@
             "option_1": "Contacto",
             "option_2": "Por qué exponer",
             "option_3": "Perfil del expositor",
-            "option_4": "Servicios a Expositores",
+            "option_4": "Servicios a Expositor                     es",
             "option_5": "Patrocinios RE+ 2024",
             "option_6": "Factsheet RE+ 2025",
             "option_7": "Contrato RE+ 2025",
@@ -167,7 +167,8 @@
         },
         "energy_date": "miércoles 17 de Abril de 2024",
         "energy_description2": "EL EVENTO MÁS IMPORTANTE DE NETWORKING DE LA INDUSTRIA FOTOVOLTAICA",
-        "energy_button": "ADQUIRIR ACCESO"
+        "energy_button": "ADQUIRIR ACCESO",
+        "more_info": "Saber más"
     },
     "AboutSSM": {
         "title": "ACERCA DE RE+ MEXICO",

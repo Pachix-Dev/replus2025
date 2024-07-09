@@ -529,7 +529,7 @@ export function Home() {
                           className="text-decoration-none"
                         >
                           <Button variant="primary" className="fs-5 btn-item">
-                            Saber más
+                            {t("home.more_info")}
                           </Button>
                         </a>
                       </Col>
