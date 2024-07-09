@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import Marquee from 'react-fast-marquee'
@@ -516,7 +516,25 @@ export function Home() {
                   <h2 className="card-title fw-bold">{t("home.rates.item3.title1")}</h2>
                   <p className="card-text fs-5 pt-3">{t("home.rates.item3.desc1")}</p>
                   <p className="card-text fs-5 pt-3">{t("home.rates.item3.desc2")}</p>
-                  <p className="card-text fs-2 fw-bold">{t("home.rates.item3.desc3")}</p>
+                  <Container className="d-flex justify-content-center align-items-center">
+                    <Row>
+                      <Col className="text-center">
+                        <a
+                          href={
+                            i18n.language === 'en'
+                              ? '/files/RE+ MEXICO SPONSORSHIPS 2025 ENG_v3.pdf'
+                              : '/files/RE+ MEXICO SPONSORSHIPS 2025 ESP_v3.pdf'
+                          }
+                          target="_blank"
+                          className="text-decoration-none"
+                        >
+                          <Button variant="primary" className="fs-5 btn-item">
+                            Saber más
+                          </Button>
+                        </a>
+                      </Col>
+                    </Row>
+                  </Container>
                 </div>
               </div>
             </Col>
