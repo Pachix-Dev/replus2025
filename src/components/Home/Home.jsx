@@ -68,7 +68,7 @@ export function Home() {
                 ? '/files/RE+MEX_2025_FS_ENG_AC_24-04-2024.pdf'
                 : '/files/RE+MEX_2025_FS_ESP_AC_24-04-2024.pdf'
             } target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_6")}  </div></a>
-            <a href='/files/REMEX_2025-v6-042424-reserve-floor-plan.pdf'
+            <a href='/files/Floor-Plan_RE_MEX_2025_090724.pdf'
               target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_8")} 2025 </div></a>
             <a href='/files/REMEX_2025_SpaceAgreement_ED_160524.pdf'
               target='_blank' className='text-decoration-none'><div className='btn-item'>  {t("menu.submenu_2.option_7")} </div></a>
