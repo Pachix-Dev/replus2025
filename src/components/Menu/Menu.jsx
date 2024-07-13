@@ -83,7 +83,7 @@ export function Menu() {
                   </NavDropdown.Item>
                   
                   <NavDropdown.Item
-                    href='/files/Floor-Plan_RE_MEX_2025_090724.pdf'
+                    href='/files/RE+_MEX_2025_v6 071224_floor_plan.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
