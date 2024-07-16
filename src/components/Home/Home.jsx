@@ -45,7 +45,7 @@ export function Home() {
 
       <Container>
         <article className='mt-2'>
-          <Row className='pt-5 '>
+          <Row className='pt-5'>
             <Col md={6} className='mx-auto'>
               <div className='px-2'>
                 <p className='fw-bold fs-3 home-text-color'>RE+ MEXICO</p>
@@ -58,6 +58,9 @@ export function Home() {
                   />
                 </p>
               </div>
+            </Col>
+            <Col md={6}>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A4IS71JxSDc?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Col>
           </Row>
         </article>
