@@ -73,7 +73,7 @@ export function Home() {
             } target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_6")}  </div></a>
             <a href='/files/RE+MEX_floorplant_2025_12_08_25.pdf'
               target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_8")} 2025 </div></a>
-            <a href='/files/REMEX_2025_SpaceAgreement_ED_160524.pdf'
+            <a href='/files/REMEX_2025_SpaceAgreement_V2_23_08_24.pdf'
               target='_blank' className='text-decoration-none'><div className='btn-item'>  {t("menu.submenu_2.option_7")} </div></a>
             <a href={
               i18n.language === 'en'
