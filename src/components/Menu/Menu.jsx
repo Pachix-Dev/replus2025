@@ -18,7 +18,7 @@ export function Menu() {
       <Navbar className='menu-solar text-uppercase text-center' expand='lg'>
         <Container>
           <Navbar.Brand as={Link} to='/' className='d-grid text-white fs-6'>
-            <img src='/logoREPLUS.webp' width={100} alt='RE+ México' />
+            <img src='/logoREPLUS_2.webp' width={100} alt='RE+ México' />
           </Navbar.Brand>
           <Navbar.Toggle onClick={handleShow} />
           <Navbar.Offcanvas
@@ -81,7 +81,7 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_6')}
                   </NavDropdown.Item>
-                  
+
                   <NavDropdown.Item
                     href='/files/RE+MEX_floorplant_2025_12_08_25.pdf'
                     target='_blank'
@@ -138,7 +138,7 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_4')}
                   </NavDropdown.Item>
-                  
+
                   {/*<NavDropdown.Item
                     href={
                       i18n.language === 'en'
@@ -239,11 +239,11 @@ export function Menu() {
                 >
                   <p className='mb-0 fw-bold'>SSM 2024</p>
                   <NavDropdown.Item
-                   href={
-                    i18n.language === 'en'
-                      ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
-                      : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
-                  }
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
+                        : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
