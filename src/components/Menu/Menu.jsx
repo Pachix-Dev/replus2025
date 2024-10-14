@@ -73,8 +73,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'en'
-                        ? '/files/RE+MEX_2025_FS_ENG_AC_24-04-2024.pdf'
-                        : '/files/RE+MEX_2025_FS_ESP_AC_24-04-2024.pdf'
+                        ? '/files/RE_MEX_2025_FS__ENG_AC_compressed.pdf'
+                        : '/files/RE_MEX_2025_FS__ES_AC_compressed.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}

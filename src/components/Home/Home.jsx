@@ -60,27 +60,61 @@ export function Home() {
               </div>
             </Col>
             <Col md={6}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/A4IS71JxSDc?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                width='560'
+                height='315'
+                src='https://www.youtube.com/embed/A4IS71JxSDc?autoplay=1&mute=1&loop=1'
+                frameborder='0'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                allowfullscreen
+              ></iframe>
             </Col>
           </Row>
         </article>
         <section className='py-5'>
           <div className='container-items'>
-            <a href={
-              i18n.language === 'en'
-                ? '/files/RE+MEX_2025_FS_ENG_AC_24-04-2024.pdf'
-                : '/files/RE+MEX_2025_FS_ESP_AC_24-04-2024.pdf'
-            } target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_6")}  </div></a>
-            <a href='/files/Floorplant_RE+_MEX_2025_v7 _10_07_24.pdf'
-              target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_2.option_8")} 2025 </div></a>
-            <a href='/files/REMEX_2025_SpaceAgreement_V2_23_08_24.pdf'
-              target='_blank' className='text-decoration-none'><div className='btn-item'>  {t("menu.submenu_2.option_7")} </div></a>
-            <a href={
-              i18n.language === 'en'
-                ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
-                : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
-            }
-              target='_blank' className='text-decoration-none'><div className='btn-item'> {t("menu.submenu_4.results")} 2024 </div></a>
+            <a
+              href={
+                i18n.language === 'en'
+                  ? '/files/RE_MEX_2025_FS__ENG_AC_compressed.pdf'
+                  : '/files/RE_MEX_2025_FS__ES_AC_compressed.pdf'
+              }
+              target='_blank'
+              className='text-decoration-none'
+            >
+              <div className='btn-item'> {t('menu.submenu_2.option_6')} </div>
+            </a>
+            <a
+              href='/files/Floorplant_RE+_MEX_2025_v7 _10_07_24.pdf'
+              target='_blank'
+              className='text-decoration-none'
+            >
+              <div className='btn-item'>
+                {' '}
+                {t('menu.submenu_2.option_8')} 2025{' '}
+              </div>
+            </a>
+            <a
+              href='/files/REMEX_2025_SpaceAgreement_V2_23_08_24.pdf'
+              target='_blank'
+              className='text-decoration-none'
+            >
+              <div className='btn-item'> {t('menu.submenu_2.option_7')} </div>
+            </a>
+            <a
+              href={
+                i18n.language === 'en'
+                  ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
+                  : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
+              }
+              target='_blank'
+              className='text-decoration-none'
+            >
+              <div className='btn-item'>
+                {' '}
+                {t('menu.submenu_4.results')} 2024{' '}
+              </div>
+            </a>
           </div>
         </section>
         {/* Patrocinadores */}
@@ -435,104 +469,171 @@ export function Home() {
         </section>
       </Container>
 
-       {/* Precios 2025 */}
-       <Container fluid className='background-section py-5'>
-        <h2 className='fw-bold fs-2 pb-2 text-white text-uppercase text-center'>RE+ MEXICO {t('home.rates.title')} 2025 </h2>
-        <p className='fst-italic fs-4 mb-5 text-center text-white '> {t('home.rates.sub-title')}</p>
+      {/* Precios 2025 */}
+      <Container fluid className='background-section py-5'>
+        <h2 className='fw-bold fs-2 pb-2 text-white text-uppercase text-center'>
+          RE+ MEXICO {t('home.rates.title')} 2025{' '}
+        </h2>
+        <p className='fst-italic fs-4 mb-5 text-center text-white '>
+          {' '}
+          {t('home.rates.sub-title')}
+        </p>
         <div>
           <Row className='mx-2 gap justify-content-md-center'>
             <Col md={12} lg={5} xl={4} className='pb-5'>
-              <div className="card card-price">
-                <div className="card-body text-center">
-                  <h2 className="card-title fw-bold" dangerouslySetInnerHTML={{
-                    __html: t("home.rates.item1.title1")
-                  }} />
+              <div className='card card-price'>
+                <div className='card-body text-center'>
+                  <h2
+                    className='card-title fw-bold'
+                    dangerouslySetInnerHTML={{
+                      __html: t('home.rates.item1.title1'),
+                    }}
+                  />
                   <Row className='py-3 align-items-end'>
                     <Col>
-                      <p className='fw-bold text-danger' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item1.price1-title")
-                      }} />
-                      <p className='fw-bold' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item1.price1")
-                      }} />
+                      <p
+                        className='fw-bold text-danger'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item1.price1-title'),
+                        }}
+                      />
+                      <p
+                        className='fw-bold'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item1.price1'),
+                        }}
+                      />
                     </Col>
                     <Col>
-                      <p className='fw-bold text-danger' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item1.price2-title")
-                      }} />
-                      <p className='fw-bold' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item1.priece2")
-                      }} />
+                      <p
+                        className='fw-bold text-danger'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item1.price2-title'),
+                        }}
+                      />
+                      <p
+                        className='fw-bold'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item1.priece2'),
+                        }}
+                      />
                     </Col>
                   </Row>
-                  <p className="card-text fw-bold fs-4 text-uppercase">{t("home.rates.item1.title2")}</p>
-                  <ul className="list-group list-group-flush  fs-5">
-                    <li className="list-group-item">{t("home.rates.item1.topic1")}</li>
-                    <li className="list-group-item">{t("home.rates.item1.topic2")}</li>
-                    <li className="list-group-item"></li>
+                  <p className='card-text fw-bold fs-4 text-uppercase'>
+                    {t('home.rates.item1.title2')}
+                  </p>
+                  <ul className='list-group list-group-flush  fs-5'>
+                    <li className='list-group-item'>
+                      {t('home.rates.item1.topic1')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item1.topic2')}
+                    </li>
+                    <li className='list-group-item'></li>
                   </ul>
-                  <p className="card-text fw-bold fs-6 text-uppercase pt-3">{t("home.rates.item1.topic3")}</p>
+                  <p className='card-text fw-bold fs-6 text-uppercase pt-3'>
+                    {t('home.rates.item1.topic3')}
+                  </p>
                 </div>
               </div>
             </Col>
             <Col md={12} lg={5} xl={4} className='pb-5'>
-              <div className="card card-price">
-                <div className="card-body text-center">
-                  <h2 className="card-title fw-bold" dangerouslySetInnerHTML={{
-                    __html: t("home.rates.item2.title1")
-                  }} />
+              <div className='card card-price'>
+                <div className='card-body text-center'>
+                  <h2
+                    className='card-title fw-bold'
+                    dangerouslySetInnerHTML={{
+                      __html: t('home.rates.item2.title1'),
+                    }}
+                  />
                   <Row className='py-3 align-items-end'>
                     <Col>
-                      <p className='fw-bold text-danger' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item2.price1-title")
-                      }} />
-                      <p className='fw-bold' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item2.price1")
-                      }} />
+                      <p
+                        className='fw-bold text-danger'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item2.price1-title'),
+                        }}
+                      />
+                      <p
+                        className='fw-bold'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item2.price1'),
+                        }}
+                      />
                     </Col>
                     <Col>
-                      <p className='fw-bold text-danger' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item2.price2-title")
-                      }} />
-                      <p className='fw-bold' dangerouslySetInnerHTML={{
-                        __html: t("home.rates.item2.price2")
-                      }} />
+                      <p
+                        className='fw-bold text-danger'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item2.price2-title'),
+                        }}
+                      />
+                      <p
+                        className='fw-bold'
+                        dangerouslySetInnerHTML={{
+                          __html: t('home.rates.item2.price2'),
+                        }}
+                      />
                     </Col>
                   </Row>
-                  <p className="card-text fw-bold fs-4 text-uppercase">{t("home.rates.item1.title2")}</p>
-                  <ul className="list-group list-group-flush fs-5">
-                    <li className="list-group-item">{t("home.rates.item2.topic1")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic2")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic3")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic4")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic5")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic6")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic7")}</li>
-                    <li className="list-group-item">{t("home.rates.item2.topic8")}</li>
+                  <p className='card-text fw-bold fs-4 text-uppercase'>
+                    {t('home.rates.item1.title2')}
+                  </p>
+                  <ul className='list-group list-group-flush fs-5'>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic1')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic2')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic3')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic4')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic5')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic6')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic7')}
+                    </li>
+                    <li className='list-group-item'>
+                      {t('home.rates.item2.topic8')}
+                    </li>
                   </ul>
                 </div>
               </div>
             </Col>
             <Col md={12} lg={5} xl={4} className='pb-5'>
-              <div className="card card-price">
-                <div className="card-body text-center">
-                  <h2 className="card-title fw-bold">{t("home.rates.item3.title1")}</h2>
-                  <p className="card-text fs-5 pt-3">{t("home.rates.item3.desc1")}</p>
-                  <p className="card-text fs-5 pt-3">{t("home.rates.item3.desc2")}</p>
-                  <Container className="d-flex justify-content-center align-items-center">
+              <div className='card card-price'>
+                <div className='card-body text-center'>
+                  <h2 className='card-title fw-bold'>
+                    {t('home.rates.item3.title1')}
+                  </h2>
+                  <p className='card-text fs-5 pt-3'>
+                    {t('home.rates.item3.desc1')}
+                  </p>
+                  <p className='card-text fs-5 pt-3'>
+                    {t('home.rates.item3.desc2')}
+                  </p>
+                  <Container className='d-flex justify-content-center align-items-center'>
                     <Row>
-                      <Col className="text-center">
+                      <Col className='text-center'>
                         <a
                           href={
                             i18n.language === 'en'
                               ? '/files/RE+ MEXICO SPONSORSHIPS 2025 ENG_v3.pdf'
                               : '/files/RE+ MEXICO SPONSORSHIPS 2025 ESP_v3.pdf'
                           }
-                          target="_blank"
-                          className="text-decoration-none"
+                          target='_blank'
+                          className='text-decoration-none'
                         >
-                          <Button variant="primary" className="fs-5 btn-item">
-                            {t("home.more_info")}
+                          <Button variant='primary' className='fs-5 btn-item'>
+                            {t('home.more_info')}
                           </Button>
                         </a>
                       </Col>
@@ -835,7 +936,7 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-      
+
       <Container className='my-5'>
         <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>
           {t('home.title-testimonials')}
